@@ -3,8 +3,6 @@ declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
 
-include './src/Operations.php';
-
 class OperationsTests extends TestCase {
 
   private $_expected = [
