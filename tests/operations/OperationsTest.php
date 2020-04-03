@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
 
-class OperationsTests extends TestCase {
+class OperationsTest extends TestCase {
 
   private $_expected = [
     2 => 2,

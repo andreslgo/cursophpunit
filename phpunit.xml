@@ -1,5 +1,17 @@
 <phpunit
   bootstrap="vendor/autoload.php"
   colors="true"
+  defaultTestSuite="default"
 >
+  <testsuites>
+    <testsuite name="default">
+      <directory>tests</directory>
+    </testsuite>
+    <testsuite name="operations">
+      <directory>tests/operations</directory>
+    </testsuite>
+    <testsuite name="first">
+      <file>tests/MyFirstTest.php</file>
+    </testsuite>
+  </testsuites>
 </phpunit>

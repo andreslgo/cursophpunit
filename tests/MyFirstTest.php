@@ -2,7 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-class MyFirstTests extends TestCase {
+class MyFirstTest extends TestCase {
 
   public function testFirst() : void {
     $this->assertTrue(true);
